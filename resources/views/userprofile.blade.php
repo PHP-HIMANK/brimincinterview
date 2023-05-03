@@ -33,7 +33,7 @@
                                         @foreach($user as $key=>$value)
                                         <tr>
                                             <td>{{ ++$key }}</td>
-                                            <td> @if($value->image) <img src="{{asset('storage/userprofile/'.$value->image)}}" style="max-width:150px;max-height:150px"> @else No Picture @endif </td>
+                                            <td> @if($value->image) <img src="{{asset('/storage/userprofile/'.$value->image)}}" style="max-width:150px;max-height:150px"> @else No Picture @endif </td>
                                             <td>{{ $value->name }}</td>
                                             <td>{{ $value->email }}</td>
                                             <td>{{ $value->linkedin }}</td>

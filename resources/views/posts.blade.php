@@ -63,6 +63,11 @@
             </div>
         </div>
     </div>
+    <script>
+        $(document).ready(function () {
+            $('#postdatatable').DataTable();
+        });
+    </script>
     {{-- <script>
         $(document).ready(function(){
             $("#tabletextsearch").on('keyup',function(){
